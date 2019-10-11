@@ -70,9 +70,7 @@ p {
 #eight-ball {
   height: 33%;
   width: 33%;
-  align-self: center;
-  margin-top: 15%;
-  margin-bottom: 15%;
+  align-self: ;
 }
 
 #woody {
@@ -87,6 +85,14 @@ p {
 #user-question-submit {
   background-color: #607AA0;
   color: #2B4E80;
+}
+
+#user-question-submit:hover {
+  background-color: #1C3455;
+}
+
+#user-question-submit:disabled {
+  background-color: #607AA0;
 }
 
 #clear-button {
