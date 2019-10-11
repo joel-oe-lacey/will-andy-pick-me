@@ -62,6 +62,7 @@ main {
   height: 33%;
   width: 33%;
   align-self: center;
+  margin: 50px;
 }
 
 #woody {
@@ -80,4 +81,5 @@ main {
 
 #clear-button {
   background-color: #DE4841;
+  align-self: flex-end;
 }
