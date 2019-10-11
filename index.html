@@ -11,15 +11,17 @@
       <h1>Will Andy Pick Me?</h1>
     </header>
     <main>
-      <section>
-        <input type="text" name="user-question" value="Ask your question here!">
-        <button type="button" name="user-question-submit">Get your answer</button>
-        <img src="assets/eight-ball.png" alt="A magic 8 ball with the number facing up">
-        <button type="button" name="clear-button">Clear</button>
-      </section>
-      <section>
-        <img src="assets/woody.png" alt="A portrait of Woody from Toy Story">
-      </section>
+      <div class="centering-container">
+        <section class="user-interaction">
+          <input id="user-question" type="text" name="user-question" value="Ask your question here!">
+          <button id="user-question-submit" type="button" name="user-question-submit">Get your answer</button>
+          <img id="eight-ball" src="./assets/eight-ball.png" alt="A magic 8 ball with the number facing up">
+          <button id="clear-button" type="button" name="clear-button">Clear</button>
+        </section>
+        <section class="image-container">
+          <img id="woody" src="./assets/woody.png" alt="A portrait of Woody from Toy Story">
+        </section>
+      </div>
     </main>
   </body>
 </html>
