@@ -36,6 +36,10 @@ main {
   justify-content: center;
 }
 
+p {
+  text-align: center;
+}
+
 .centering-container {
   height: 50%;
   width: 60%;
@@ -48,6 +52,7 @@ main {
   width: 55%;
   display: flex;
   flex-flow: column wrap;
+  justify-content: space-between;
   /* align-items: center; */
   padding: 2%;
   background-color: #E6ECF4;
@@ -58,11 +63,16 @@ main {
   width: 30%;
 }
 
+.hide {
+  display: none;
+}
+
 #eight-ball {
   height: 33%;
   width: 33%;
   align-self: center;
-  margin: 50px;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 #woody {
